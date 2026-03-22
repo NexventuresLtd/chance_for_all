@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Brain, Sprout, Target, Heart, ChevronDown, ChevronRight, MessageCircle, Users, HandHeart } from "lucide-react";
+import { Brain, Sprout, Target, ChevronDown, ChevronRight, MessageCircle, Users, HandHeart } from "lucide-react";
 import { useCountUp } from "../hooks/useCountUp";
 
 // Replace with the actual WhatsApp number

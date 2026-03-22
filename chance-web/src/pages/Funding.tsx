@@ -3,7 +3,6 @@ import { MessageCircle, Heart, Users, Target, Sprout, ChevronRight, Check, Globe
 import PageHero from "../components/ui/PageHero";
 import { useCountUp } from "../hooks/useCountUp";
 
-const WHATSAPP_URL = "https://wa.me/250780000000";
 const WHATSAPP_FUND = `https://wa.me/250780000000?text=${encodeURIComponent("Hello! I would like to support CHANCE For ALL. Please tell me how I can contribute.")}`;
 
 function AnimatedStat({ value, suffix = "", label, color }: { value: number; suffix?: string; label: string; color: string }) {
