@@ -8,21 +8,21 @@ interface PageHeroProps {
 
 export default function PageHero({ badge, title, highlight, subtitle, badgeColor = "blue" }: PageHeroProps) {
   const bgColors: Record<string, string> = {
-    blue: "bg-blue-800",
-    emerald: "bg-blue-800",
+    blue: "bg-[#0c1e35]",
+    emerald: "bg-[#0c1e35]",
     amber: "bg-amber-700",
-    purple: "bg-blue-900",
-    rose: "bg-blue-800",
-    green: "bg-blue-700",
+    purple: "bg-[#0c1e35]",
+    rose: "bg-[#0c1e35]",
+    green: "bg-[#0c1e35]",
   };
 
   const badgeBg: Record<string, string> = {
-    blue: "bg-blue-700/60 text-blue-100 border-blue-500",
-    emerald: "bg-blue-700/60 text-blue-100 border-blue-500",
+    blue: "bg-white/10 text-blue-100 border-white/20",
+    emerald: "bg-white/10 text-blue-100 border-white/20",
     amber: "bg-amber-600/60 text-amber-100 border-amber-500",
-    purple: "bg-blue-800/60 text-blue-200 border-blue-600",
-    rose: "bg-blue-700/60 text-blue-100 border-blue-500",
-    green: "bg-blue-600/60 text-blue-100 border-blue-400",
+    purple: "bg-white/10 text-blue-200 border-white/20",
+    rose: "bg-white/10 text-blue-100 border-white/20",
+    green: "bg-white/10 text-blue-100 border-white/20",
   };
 
   return (

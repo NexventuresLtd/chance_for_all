@@ -4,12 +4,11 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { label: "Home", to: "/" },
-  { label: "About", to: "/about" },
-  { label: "Services", to: "/services" },
-  { label: "Market", to: "/market" },
-  { label: "Operations", to: "/operations" },
-  { label: "Funding", to: "/funding" },
-  { label: "Acronyms", to: "/acronyms" },
+  { label: "Our Story", to: "/about" },
+  { label: "Our Work", to: "/our-work" },
+  { label: "For Schools", to: "/for-schools" },
+  { label: "Impact", to: "/impact" },
+  { label: "Get Involved", to: "/get-involved" },
   { label: "Contact", to: "/contact" },
 ];
 
@@ -68,13 +67,13 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* CTA + hamburger */}
+        {/* Donate CTA + hamburger */}
         <div className="flex items-center gap-3">
           <Link
-            to="/contact"
-            className="hidden sm:inline-flex items-center px-4 py-1.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-lg transition-colors shadow-sm"
+            to="/get-involved"
+            className="hidden sm:inline-flex items-center px-4 py-1.5 bg-amber-500 hover:bg-amber-600 text-white text-sm font-semibold rounded-lg transition-colors shadow-sm"
           >
-            Get Involved
+            Donate Now
           </Link>
           <button
             className="lg:hidden p-2 rounded-lg text-gray-600 hover:bg-blue-50 transition-colors"
@@ -105,11 +104,11 @@ export default function Navbar() {
             </NavLink>
           ))}
           <Link
-            to="/contact"
+            to="/get-involved"
             onClick={() => setOpen(false)}
-            className="mt-2 px-3 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-lg text-center transition-colors"
+            className="mt-2 px-3 py-2.5 bg-amber-500 hover:bg-amber-600 text-white text-sm font-semibold rounded-lg text-center transition-colors"
           >
-            Get Involved
+            Donate Now
           </Link>
         </div>
       </div>

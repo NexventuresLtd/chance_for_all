@@ -1,22 +1,18 @@
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, MessageCircle, MapPin, Landmark, Calendar, Heart } from "lucide-react";
-
-// Replace with the actual WhatsApp number: +250XXXXXXXXX
-const WHATSAPP_NUMBER = "250780000000";
-const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
+import { Facebook, Instagram, MessageCircle, MapPin, Calendar, Heart } from "lucide-react";
+import { WHATSAPP_URL } from "../lib/constants";
 
 const links = [
   { label: "Home", to: "/" },
-  { label: "About", to: "/about" },
-  { label: "Services", to: "/services" },
-  { label: "Market Analysis", to: "/market" },
-  { label: "Operations", to: "/operations" },
-  { label: "Funding", to: "/funding" },
-  { label: "Acronyms", to: "/acronyms" },
+  { label: "Our Story", to: "/about" },
+  { label: "Our Work", to: "/our-work" },
+  { label: "For Schools & Parents", to: "/for-schools" },
+  { label: "Impact & Research", to: "/impact" },
+  { label: "Get Involved", to: "/get-involved" },
   { label: "Contact", to: "/contact" },
 ];
 
-const sdgs = ["SDG 3 — Good Health & Well-being", "SDG 4 — Quality Education"];
+const sdgs = ["SDG 3   ,   Good Health & Well-being", "SDG 4   ,   Quality Education"];
 
 export default function Footer() {
   return (
@@ -33,8 +29,9 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-5 max-w-sm">
-              A school-based counseling and mentorship social enterprise in Nyamasheke District, Rwanda.
-              Empowering adolescents with professional emotional support, structured mentorship, and career readiness.
+              A school-based counseling and mentorship social enterprise in Nyamasheke District,
+              Rwanda. Empowering adolescents with professional emotional support, structured
+              mentorship, and career readiness.
             </p>
             <div className="flex gap-3">
               <a
@@ -93,14 +90,7 @@ export default function Footer() {
                 <MapPin className="w-4 h-4 text-gray-500 mt-0.5 shrink-0" />
                 <div>
                   <div className="text-gray-500 text-xs mb-0.5">Location</div>
-                  <div className="text-gray-300">Nyamasheke District, Rwanda</div>
-                </div>
-              </li>
-              <li className="flex items-start gap-2">
-                <Landmark className="w-4 h-4 text-gray-500 mt-0.5 shrink-0" />
-                <div>
-                  <div className="text-gray-500 text-xs mb-0.5">Institution</div>
-                  <div className="text-gray-300">African Leadership University</div>
+                  <div className="text-gray-300">Ntendezi, Nyamasheke District, Rwanda</div>
                 </div>
               </li>
               <li className="flex items-start gap-2">
@@ -138,12 +128,9 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-600">
-          <p>
-            © 2026 CHANCE For ALL · Chancelline Niyotugendana · Student ID: 745770020
-          </p>
+          <p>© 2026 CHANCE For ALL · Chancelline Niyotugendana, Founder</p>
           <p className="flex items-center gap-1">
-            Made with <Heart className="w-3 h-3 text-red-500" /> for Rwanda's youth ·
-            Supervisor: Kellia Marie Reine Isaro · ALU
+            Made with <Heart className="w-3 h-3 text-red-500" /> for Rwanda's youth
           </p>
         </div>
       </div>

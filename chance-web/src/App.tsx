@@ -8,11 +8,10 @@ import BackToTop from "./components/ui/BackToTop";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Services from "./pages/Services";
-import Market from "./pages/Market";
-import Operations from "./pages/Operations";
-import Funding from "./pages/Funding";
-import Acronyms from "./pages/Acronyms";
+import OurWork from "./pages/OurWork";
+import ForSchools from "./pages/ForSchools";
+import Impact from "./pages/Impact";
+import GetInvolved from "./pages/GetInvolved";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -27,11 +26,10 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/market" element={<Market />} />
-            <Route path="/operations" element={<Operations />} />
-            <Route path="/funding" element={<Funding />} />
-            <Route path="/acronyms" element={<Acronyms />} />
+            <Route path="/our-work" element={<OurWork />} />
+            <Route path="/for-schools" element={<ForSchools />} />
+            <Route path="/impact" element={<Impact />} />
+            <Route path="/get-involved" element={<GetInvolved />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
