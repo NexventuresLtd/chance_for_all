@@ -1,5 +1,5 @@
 import { Check, MessageCircle, Sprout } from "lucide-react";
-import { whatsappMsg, PICSUM } from "../../lib/constants";
+import { whatsappMsg} from "../../lib/constants";
 
 const WHATSAPP_VOLUNTEER = whatsappMsg(
   "Hello! I am interested in volunteering as a mentor with CHANCE For ALL. Please tell me about the process."
@@ -30,7 +30,7 @@ export default function VolunteerSection() {
           <div className="space-y-5">
             <div className="relative h-72 rounded-3xl overflow-hidden bg-blue-100">
               <img
-                src={PICSUM("mentor-youth-volunteer", 600, 400)}
+                src="/5Y0A1129.JPG"
                 alt="Volunteer mentor with students"
                 className="w-full h-full object-cover"
               />

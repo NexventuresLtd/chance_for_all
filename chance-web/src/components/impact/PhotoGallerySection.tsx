@@ -1,5 +1,3 @@
-import { PICSUM } from "../../lib/constants";
-
 const images = [
   { seed: "mentorship-group-session", label: "Group mentorship sessions" },
   { seed: "life-skills-workshop", label: "Life-skills workshops" },
@@ -31,7 +29,7 @@ export default function PhotoGallerySection() {
               className="relative rounded-2xl overflow-hidden h-52 bg-blue-100 group"
             >
               <img
-                src={PICSUM(img.seed, 600, 400)}
+                src="/5Y0A1204.JPG"
                 alt={img.label}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />

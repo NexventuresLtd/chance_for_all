@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Building2, Check, Users, ArrowRight, MessageCircle } from "lucide-react";
-import { whatsappMsg, PICSUM } from "../../lib/constants";
+import { whatsappMsg } from "../../lib/constants";
 
 const WHATSAPP_SCHOOL = whatsappMsg(
   "Hello! I am a school administrator interested in partnering with CHANCE For ALL. Please tell me more."
@@ -75,9 +75,9 @@ export default function SchoolPartnershipSection() {
           <div className="space-y-5">
             <div className="relative h-72 rounded-3xl overflow-hidden bg-blue-100">
               <img
-                src={PICSUM("school-classroom-africa", 600, 400)}
+                src="/5Y0A1293.JPG"
                 alt="School partnership"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-center"
               />
               <div className="absolute inset-0 bg-blue-900/20" />
             </div>

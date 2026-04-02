@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Quote } from "lucide-react";
-import { PICSUM } from "../../lib/constants";
 
 export default function GraceStorySection() {
   return (
@@ -11,7 +10,7 @@ export default function GraceStorySection() {
           <div className="relative">
             <div className="relative h-96 lg:h-[500px] rounded-3xl overflow-hidden bg-blue-100">
               <img
-                src={PICSUM("student-hopeful", 600, 700)}
+                src="/5Y0A1119.JPG"
                 alt="A student looking towards the future"
                 className="w-full h-full object-cover"
               />

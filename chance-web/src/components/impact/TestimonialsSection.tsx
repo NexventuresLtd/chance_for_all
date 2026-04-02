@@ -1,5 +1,4 @@
 import { Quote } from "lucide-react";
-import { PICSUM } from "../../lib/constants";
 
 const testimonials = [
   {
@@ -7,28 +6,28 @@ const testimonials = [
       "I felt lost and alone. My mentor at Chance for All helped me believe in my future again. For the first time, I have a plan.",
     name: "Grace",
     role: "Student, Ntendezi, Nyamasheke District",
-    image: PICSUM("young-woman-hopeful", 200, 200),
+    image: "/5Y0A0987.JPG",
   },
   {
     quote:
       "The mentorship program has given my son focus. He's more confident and serious about his studies. I see a real change.",
     name: "Parent",
     role: "Parent of enrolled student",
-    image: PICSUM("african-parent-smiling", 200, 200),
+    image: "/5Y0A1291.JPG",
   },
   {
     quote:
       "We've seen a remarkable improvement in student discipline and emotional well-being since the program began at our school.",
     name: "School Administrator",
     role: "Partner School, Nyamasheke",
-    image: PICSUM("teacher-professional", 200, 200),
+    image: "/5Y0A1293.JPG",
   },
   {
     quote:
       "Being a mentor here has been one of the most rewarding experiences of my life. These students are hungry to grow.",
     name: "Program Mentor",
     role: "Volunteer Mentor, CHANCE For ALL",
-    image: PICSUM("mentor-young-professional", 200, 200),
+    image: "Jean Paul.jpeg",
   },
 ];
 

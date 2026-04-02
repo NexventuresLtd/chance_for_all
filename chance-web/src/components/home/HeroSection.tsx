@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Heart, Users, MapPin } from "lucide-react";
-import { PICSUM } from "../../lib/constants";
 
 export default function HeroSection() {
   return (
@@ -8,7 +7,7 @@ export default function HeroSection() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url('${PICSUM("school-children-africa", 1600, 900)}')` }}
+        style={{ backgroundImage: `url('/5Y0A1230.JPG')` }}
       />
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-[#0c1e35]/78" />

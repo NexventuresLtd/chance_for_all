@@ -1,5 +1,4 @@
 import { Building2, Search, ClipboardList, Handshake, Lightbulb, BarChart2 } from "lucide-react";
-import { PICSUM } from "../../lib/constants";
 
 const steps = [
   {
@@ -81,7 +80,7 @@ export default function DeliveryProcessSection() {
           <div className="space-y-6 lg:pt-16">
             <div className="relative h-72 rounded-3xl overflow-hidden bg-blue-100">
               <img
-                src={PICSUM("mentorship-session-school", 600, 400)}
+                src="/5Y0A0989.JPG"
                 alt="Mentorship session in school"
                 className="w-full h-full object-cover"
               />

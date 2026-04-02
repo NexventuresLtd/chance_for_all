@@ -4,4 +4,4 @@ export const whatsappMsg = (text: string) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 
 export const PICSUM = (seed: string, w: number, h: number) =>
-  `https://picsum.photos/seed/${seed}/${w}/${h}`;
+  `/5Y0A1204.JPG${seed}/${w}/${h}`;

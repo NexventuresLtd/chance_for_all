@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, MessageCircle, MapPin, Calendar, Heart } from "lucide-react";
+import { Facebook, Instagram, MessageCircle, MapPin, Calendar } from "lucide-react";
 import { WHATSAPP_URL } from "../lib/constants";
 
 const links = [
@@ -22,11 +22,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2.5 mb-4">
-              <img src="/logo.png" alt="CHANCE For ALL" className="h-10 w-auto object-contain" />
-              <div>
-                <span className="font-extrabold text-white text-lg">CHANCE</span>
-                <span className="font-bold text-amber-400 text-lg"> For ALL</span>
-              </div>
+              <img src="/chance_for_all.PNG" alt="CHANCE For ALL" className="h-54 w-auto object-contain" />
             </div>
             <p className="text-sm leading-relaxed mb-5 max-w-sm">
               A school-based counseling and mentorship social enterprise in Nyamasheke District,
@@ -130,7 +126,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-600">
           <p>© 2026 CHANCE For ALL · Chancelline Niyotugendana, Founder</p>
           <p className="flex items-center gap-1">
-            Made with <Heart className="w-3 h-3 text-red-500" /> for Rwanda's youth
+            Made By Nexventures Ltd
           </p>
         </div>
       </div>

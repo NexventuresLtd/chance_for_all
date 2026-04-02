@@ -1,13 +1,11 @@
 import { Eye, Zap } from "lucide-react";
-import { PICSUM } from "../../lib/constants";
-
 export default function MissionVisionSection() {
   return (
     <section className="bg-white">
       {/* Origin story banner */}
       <div className="relative h-64 sm:h-80 overflow-hidden bg-[#0c1e35]">
         <img
-          src={PICSUM("nyamasheke-landscape", 1600, 500)}
+          src="/5Y0A1045.JPG"
           alt="Ntendezi, Nyamasheke District, Rwanda"
           className="w-full h-full object-cover opacity-55"
         />

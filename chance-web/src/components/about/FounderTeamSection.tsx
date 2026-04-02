@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Users } from "lucide-react";
 import { PICSUM } from "../../lib/constants";
 
@@ -13,45 +12,43 @@ const founder = {
 
 const team = [
   {
-    name: "Jean-Paul Habimana",
+    name: "Jean-Paul Bukuru",
     role: "Program Coordinator",
     id: "Nyamasheke District, Rwanda",
     bio: "Jean-Paul oversees day-to-day program delivery across partner schools, ensuring mentorship sessions run smoothly and outcomes are tracked with care.",
-    picsum: PICSUM("professional-man-rwanda", 400, 480),
+    picsum: "/Jean Paul.jpeg",
   },
   {
-    name: "Marie-Claire Uwimana",
+    name: "Bella Nyirabeza Belancille",
     role: "Lead Counselor",
     id: "Nyamasheke District, Rwanda",
-    bio: "A trained psychosocial counselor, Marie-Claire leads our one-on-one and group sessions for students navigating trauma, grief, and academic pressure.",
-    picsum: PICSUM("professional-woman-counselor", 400, 480),
+    bio: "A trained psychosocial counselor, Bella leads our one-on-one and group sessions for students navigating trauma, grief, and academic pressure.",
+    picsum: "/5Y0A1124.JPG",
   },
   {
-    name: "Emmanuel Ndayishimiye",
+    name: "Eric Nshuti",
     role: "Community Outreach Officer",
     id: "Western Province, Rwanda",
-    bio: "Emmanuel bridges the gap between CHANCE For ALL and local families, building trust within communities and identifying teenagers most in need of support.",
-    picsum: PICSUM("community-outreach-man", 400, 480),
+    bio: "Eric bridges the gap between CHANCE For ALL and local families, building trust within communities and identifying teenagers most in need of support.",
+    picsum: "https://media.licdn.com/dms/image/v2/D4D03AQFGw1gIAvjDFg/profile-displayphoto-shrink_200_200/B4DZU4O.0lGkAg-/0/1740405207896?e=2147483647&v=beta&t=knU2gdyiBfEfRI875TK66_BuDqSvLhFTszWFUuWGWQM",
   },
   {
-    name: "Solange Mukamana",
+    name: "Furaha Adeliphine",
     role: "Mentor Trainer",
     id: "Kigali, Rwanda",
-    bio: "Solange designs and facilitates training workshops for volunteer mentors, equipping them with the tools to guide students through career discovery and personal growth.",
-    picsum: PICSUM("trainer-woman-professional", 400, 480),
+    bio: "Furaha designs and facilitates training workshops for volunteer mentors, equipping them with the tools to guide students through career discovery and personal growth.",
+    picsum: "https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/user-female-icon.png",
   },
 ];
 
 function FounderCard() {
-  const [imgError, setImgError] = useState(false);
   return (
     <div className="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
       <div className="relative h-64 bg-blue-50">
         <img
-          src={imgError ? founder.picsum : founder.photo}
+          src="/Chance (3).jpeg"
           alt={founder.name}
-          className="w-full h-full object-cover"
-          onError={() => setImgError(true)}
+          className="w-full h-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-[#0c1e35]/10" />
       </div>

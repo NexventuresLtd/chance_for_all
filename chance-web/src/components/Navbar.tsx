@@ -48,14 +48,10 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2.5 shrink-0">
           <img
-            src="/logo.png"
+            src="/chance_for_all.PNG"
             alt="CHANCE For ALL"
-            className="h-10 w-auto object-contain"
+            className="h-32 w-auto object-contain"
           />
-          <div className="hidden sm:block">
-            <span className="font-extrabold text-blue-800 text-base">CHANCE</span>
-            <span className="font-bold text-amber-500 text-base"> For ALL</span>
-          </div>
         </Link>
 
         {/* Desktop links */}
