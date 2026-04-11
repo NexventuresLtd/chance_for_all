@@ -28,7 +28,7 @@ export default function LegalComplianceSection() {
               Registered. Compliant. Trusted.
             </h2>
             <p className="text-gray-600 leading-relaxed mb-8">
-              Chance for All operates with full transparency and in compliance with all Rwandan
+              Chance For All operates with full transparency and in compliance with all Rwandan
               national regulations. We are committed to child safeguarding, ethical program delivery,
               and institutional accountability.
             </p>

@@ -2,7 +2,7 @@ import { Check, MessageCircle, Sprout } from "lucide-react";
 import { whatsappMsg} from "../../lib/constants";
 
 const WHATSAPP_VOLUNTEER = whatsappMsg(
-  "Hello! I am interested in volunteering as a mentor with CHANCE For ALL. Please tell me about the process."
+  "Hello! I am interested in volunteering as a mentor with Chance For All. Please tell me about the process."
 );
 
 const requirements = [
@@ -40,7 +40,7 @@ export default function VolunteerSection() {
                   <p className="text-sm font-semibold text-gray-900">
                     "Being a mentor here has been one of the most rewarding experiences of my life."
                   </p>
-                  <p className="text-blue-600 text-xs mt-1"> ,  Program Mentor, CHANCE For ALL</p>
+                  <p className="text-blue-600 text-xs mt-1"> ,  Program Mentor, Chance For All</p>
                 </div>
               </div>
             </div>

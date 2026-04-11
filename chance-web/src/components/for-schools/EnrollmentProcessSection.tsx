@@ -2,7 +2,7 @@ import { MessageCircle, UserCheck, ClipboardList, CalendarCheck, Star } from "lu
 import { whatsappMsg } from "../../lib/constants";
 
 const WHATSAPP_ENROLL = whatsappMsg(
-  "Hello! I would like to enroll my child in CHANCE For ALL. Please guide me through the process."
+  "Hello! I would like to enroll my child in Chance For All. Please guide me through the process."
 );
 
 const steps = [

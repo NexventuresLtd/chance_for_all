@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { MessageCircle, Handshake, Heart } from "lucide-react";
 import { whatsappMsg } from "../../lib/constants";
 
-const WHATSAPP_PARTNER = whatsappMsg("Hello! I am interested in partnering with CHANCE For ALL.");
+const WHATSAPP_PARTNER = whatsappMsg("Hello! I am interested in partnering with Chance For All.");
 
 export default function HomeCtaSection() {
   return (
@@ -36,7 +36,7 @@ export default function HomeCtaSection() {
             Donate Now
           </Link>
           <a
-            href={whatsappMsg("Hello! I would like to learn more about CHANCE For ALL.")}
+            href={whatsappMsg("Hello! I would like to learn more about Chance For All.")}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl transition-colors border border-white/25"

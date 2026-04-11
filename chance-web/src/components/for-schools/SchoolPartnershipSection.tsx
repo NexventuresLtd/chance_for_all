@@ -3,7 +3,7 @@ import { Building2, Check, Users, ArrowRight, MessageCircle } from "lucide-react
 import { whatsappMsg } from "../../lib/constants";
 
 const WHATSAPP_SCHOOL = whatsappMsg(
-  "Hello! I am a school administrator interested in partnering with CHANCE For ALL. Please tell me more."
+  "Hello! I am a school administrator interested in partnering with Chance For All. Please tell me more."
 );
 
 const benefits = [

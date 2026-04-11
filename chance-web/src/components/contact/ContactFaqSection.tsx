@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "Is the organization registered?",
-    a: "Chance for All is in the process of registering through the Rwanda Development Board (RDB) as a social enterprise, fully complying with all child protection and education regulations.",
+    a: "Chance For All is in the process of registering through the Rwanda Development Board (RDB) as a social enterprise, fully complying with all child protection and education regulations.",
   },
   {
     q: "How can my organization partner with you?",

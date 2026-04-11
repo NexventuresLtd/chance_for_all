@@ -5,7 +5,7 @@ const founder = {
   name: "Chancelline Niyotugendana",
   role: "Founder & Program Director",
   id: "Ntendezi, Nyamasheke District, Rwanda",
-  bio: "Passionate about youth mental health and rural development, Chancelline founded CHANCE For ALL to ensure every teenager in Nyamasheke has access to the guidance they deserve.",
+  bio: "Passionate about youth mental health and rural development, Chancelline founded Chance For All to ensure every teenager in Nyamasheke has access to the guidance they deserve.",
   photo: "/founder.jpg",
   picsum: PICSUM("professional-woman-portrait", 400, 480),
 };
@@ -29,7 +29,7 @@ const team = [
     name: "Eric Nshuti",
     role: "Community Outreach Officer",
     id: "Western Province, Rwanda",
-    bio: "Eric bridges the gap between CHANCE For ALL and local families, building trust within communities and identifying teenagers most in need of support.",
+    bio: "Eric bridges the gap between Chance For All and local families, building trust within communities and identifying teenagers most in need of support.",
     picsum: "https://media.licdn.com/dms/image/v2/D4D03AQFGw1gIAvjDFg/profile-displayphoto-shrink_200_200/B4DZU4O.0lGkAg-/0/1740405207896?e=2147483647&v=beta&t=knU2gdyiBfEfRI875TK66_BuDqSvLhFTszWFUuWGWQM",
   },
   {
@@ -99,7 +99,7 @@ export default function FounderTeamSection() {
           </span>
           <h2 className="text-3xl font-extrabold text-gray-900 mb-3">Meet Our Team</h2>
           <p className="text-gray-500 max-w-xl mx-auto">
-            Driven by purpose, guided by values — meet the people behind CHANCE For ALL.
+            Driven by purpose, guided by values — meet the people behind Chance For All.
           </p>
         </div>
 
@@ -118,7 +118,7 @@ export default function FounderTeamSection() {
         {/* Founder quote */}
         <div className="bg-blue-50 border border-blue-100 rounded-3xl p-8 max-w-3xl mx-auto text-center">
           <p className="text-blue-800 text-lg italic leading-relaxed mb-4">
-            "I started Chance for All because I saw brilliant students dropping out not because
+            "I started Chance For All because I saw brilliant students dropping out not because
             they weren't smart, but because they had no one to guide them through their struggles."
           </p>
           <p className="text-blue-600 font-bold text-sm">

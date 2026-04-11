@@ -34,7 +34,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-xl text-blue-100 leading-relaxed mb-10 max-w-2xl">
-            Chance for All provides school-based counseling and mentorship to ensure every student  , 
+            Chance For All provides school-based counseling and mentorship to ensure every student  , 
             from the abandoned to the aspiring  ,  has the support to thrive.
           </p>
 

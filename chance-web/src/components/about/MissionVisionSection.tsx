@@ -14,7 +14,7 @@ export default function MissionVisionSection() {
             Where We Come From
           </h2>
           <p className="text-blue-100 text-sm sm:text-base max-w-xl drop-shadow leading-relaxed">
-            Born in Nyamasheke  ,  one of Rwanda's most underserved districts  ,  CHANCE For ALL was
+            Born in Nyamasheke  ,  one of Rwanda's most underserved districts  ,  Chance For All was
             founded to give every abandoned child a universe of untold potential.
           </p>
         </div>
@@ -47,7 +47,7 @@ export default function MissionVisionSection() {
               </div>
               <h2 className="text-2xl font-bold mb-3">Mission Statement</h2>
               <p className="text-amber-50 leading-relaxed">
-                Chance for All exists to address the gap in accessible, structured mental health
+                Chance For All exists to address the gap in accessible, structured mental health
                 and career readiness support for secondary school students in rural Rwanda  , 
                 through a sustainable cross-subsidy model that engages paying families while
                 supporting vulnerable and abandoned teenagers.

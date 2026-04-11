@@ -3,7 +3,7 @@ import { Check, MessageCircle } from "lucide-react";
 import { whatsappMsg } from "../../lib/constants";
 
 const WHATSAPP_ENROLL = whatsappMsg(
-  "Hello! I would like to enroll my child in CHANCE For ALL. Please tell me more about the process."
+  "Hello! I would like to enroll my child in Chance For All. Please tell me more about the process."
 );
 
 const plans = [

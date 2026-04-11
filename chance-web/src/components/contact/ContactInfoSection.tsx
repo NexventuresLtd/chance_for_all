@@ -10,7 +10,7 @@ export default function ContactInfoSection() {
         <div className="space-y-4 text-sm">
           {[
             { Icon: MapPin, label: "Address", val: "Ntendezi, Nyamasheke District, Western Province, Rwanda" },
-            { Icon: Mail, label: "Email", val: "info@chanceforall.rw" },
+            { Icon: Mail, label: "Email", val: "info@chance_for_all" },
             { Icon: Phone, label: "Phone", val: "+250 786 069 425" },
             { Icon: Calendar, label: "Founded", val: "September 2025" },
           ].map((c) => (
@@ -52,15 +52,15 @@ export default function ContactInfoSection() {
       <div className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm">
         <h3 className="font-bold text-gray-900 mb-0.5">Chancelline Niyotugendana</h3>
         <div className="text-blue-600 text-sm mb-0.5">Founder &amp; Program Director</div>
-        <div className="text-gray-400 text-xs">Founder, CHANCE For ALL · Nyamasheke, Rwanda</div>
+        <div className="text-gray-400 text-xs">Founder, Chance For All · Nyamasheke, Rwanda</div>
       </div>
 
       {/* Social media */}
       <div className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm">
         <h3 className="font-bold text-gray-900 mb-3">Follow Us</h3>
         <div className="space-y-2 text-sm text-gray-600">
-          <p>Instagram: <span className="text-blue-600">@chanceforall.rw</span></p>
-          <p>Facebook: <span className="text-blue-600">CHANCE For ALL</span></p>
+          <p>Instagram: <span className="text-blue-600">@chance_for_all</span></p>
+          <p>Facebook: <span className="text-blue-600">Chance For All</span></p>
           <p>WhatsApp: <span className="text-blue-600">+250 786 069 425</span></p>
         </div>
       </div>

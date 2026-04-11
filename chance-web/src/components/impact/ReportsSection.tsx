@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const reports = [
   {
     title: "2025 Program Launch Report",
-    desc: "Overview of CHANCE For ALL's establishment, operational setup, and early framework development in Nyamasheke District.",
+    desc: "Overview of Chance For All's establishment, operational setup, and early framework development in Nyamasheke District.",
     year: "2025",
     status: "available",
     badge: "Available",

@@ -3,7 +3,7 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "I felt lost and alone. My mentor at Chance for All helped me believe in my future again. For the first time, I have a plan.",
+      "I felt lost and alone. My mentor at Chance For All helped me believe in my future again. For the first time, I have a plan.",
     name: "Grace",
     role: "Student, Ntendezi, Nyamasheke District",
     image: "/5Y0A0987.JPG",
@@ -26,7 +26,7 @@ const testimonials = [
     quote:
       "Being a mentor here has been one of the most rewarding experiences of my life. These students are hungry to grow.",
     name: "Program Mentor",
-    role: "Volunteer Mentor, CHANCE For ALL",
+    role: "Volunteer Mentor, Chance For All",
     image: "Jean Paul.jpeg",
   },
 ];
@@ -44,7 +44,7 @@ export default function TestimonialsSection() {
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto">
             Real stories from students, parents, teachers, and mentors who have experienced
-            the impact of CHANCE For ALL.
+            the impact of Chance For All.
           </p>
         </div>
 

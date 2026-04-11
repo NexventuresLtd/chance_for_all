@@ -105,7 +105,7 @@ export default function ContactFormSection() {
           <div className="mt-5 text-center">
             <a
               href={whatsappMsg(
-                `Hello! I am interested in CHANCE For ALL as a ${selectedRoleLabel}. I would like to learn more.`
+                `Hello! I am interested in Chance For All as a ${selectedRoleLabel}. I would like to learn more.`
               )}
               target="_blank"
               rel="noopener noreferrer"

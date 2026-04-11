@@ -40,12 +40,12 @@ export default function DualImpactSection() {
             <div className="hidden lg:block w-12 h-0.5 bg-amber-300" />
           </div>
 
-          {/* CHANCE For ALL center */}
+          {/* Chance For All center */}
           <div className="bg-[#0c1e35] rounded-3xl p-8 text-center w-full max-w-xs shadow-xl">
             <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
               <Building2 className="w-8 h-8 text-white" />
             </div>
-            <h3 className="font-extrabold text-white text-xl mb-2">CHANCE For ALL</h3>
+            <h3 className="font-extrabold text-white text-xl mb-2">Chance For All</h3>
             <p className="text-blue-200 text-sm">
               Revenue is reinvested to fund free services for vulnerable teenagers.
             </p>

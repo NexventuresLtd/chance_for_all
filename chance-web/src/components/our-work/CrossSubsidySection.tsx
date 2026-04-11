@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { MessageCircle, ChevronRight } from "lucide-react";
 import { whatsappMsg } from "../../lib/constants";
 
-const WHATSAPP_ENROLL = whatsappMsg("Hello! I would like to enroll my child in CHANCE For ALL.");
+const WHATSAPP_ENROLL = whatsappMsg("Hello! I would like to enroll my child in Chance For All.");
 
 export default function CrossSubsidySection() {
   return (

@@ -1,7 +1,7 @@
 const milestones = [
   {
     date: "Sep 2025",
-    event: "CHANCE For ALL established in Ntendezi, Nyamasheke District",
+    event: "Chance For All established in Ntendezi, Nyamasheke District",
     status: "done",
   },
   {

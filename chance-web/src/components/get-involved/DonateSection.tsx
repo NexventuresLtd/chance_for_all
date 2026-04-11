@@ -35,7 +35,7 @@ export default function DonateSection() {
               <p className="text-sm text-gray-600 leading-relaxed flex-1">{item.impact}</p>
               <a
                 href={whatsappMsg(
-                  `Hello! I would like to donate $${item.amount} to CHANCE For ALL. Please guide me through the process.`
+                  `Hello! I would like to donate $${item.amount} to Chance For All. Please guide me through the process.`
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -57,7 +57,7 @@ export default function DonateSection() {
           </p>
           <a
             href={whatsappMsg(
-              "Hello! I would like to make a donation to CHANCE For ALL. Please let me know the options."
+              "Hello! I would like to make a donation to Chance For All. Please let me know the options."
             )}
             target="_blank"
             rel="noopener noreferrer"

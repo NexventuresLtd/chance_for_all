@@ -22,7 +22,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2.5 mb-4">
-              <img src="/chance_for_all.PNG" alt="CHANCE For ALL" className="h-54 w-auto object-contain" />
+              <img src="/chance_for_all.PNG" alt="Chance For All" className="h-54 w-auto object-contain" />
             </div>
             <p className="text-sm leading-relaxed mb-5 max-w-sm">
               A school-based counseling and mentorship social enterprise in Nyamasheke District,
@@ -124,7 +124,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-600">
-          <p>© 2026 CHANCE For ALL · Chancelline Niyotugendana, Founder</p>
+          <p>© 2026 Chance For All · Chancelline Niyotugendana, Founder</p>
           <p className="flex items-center gap-1">
             Made By Nexventures Ltd
           </p>

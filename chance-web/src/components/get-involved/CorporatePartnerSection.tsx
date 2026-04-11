@@ -2,7 +2,7 @@ import { Handshake, Check, Globe } from "lucide-react";
 import { whatsappMsg, PICSUM } from "../../lib/constants";
 
 const WHATSAPP_PARTNER = whatsappMsg(
-  "Hello! Our organization is interested in a corporate partnership with CHANCE For ALL. Please tell me more."
+  "Hello! Our organization is interested in a corporate partnership with Chance For All. Please tell me more."
 );
 
 const benefits = [

@@ -5,7 +5,7 @@ const steps = [
     step: 1,
     Icon: Building2,
     title: "School Partnership Development",
-    desc: "Chance for All identifies and partners with secondary schools to implement the program within their environment.",
+    desc: "Chance For All identifies and partners with secondary schools to implement the program within their environment.",
   },
   {
     step: 2,

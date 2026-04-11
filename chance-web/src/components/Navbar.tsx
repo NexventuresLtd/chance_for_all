@@ -49,7 +49,7 @@ export default function Navbar() {
         <Link to="/" className="flex items-center gap-2.5 shrink-0">
           <img
             src="/chance_for_all.PNG"
-            alt="CHANCE For ALL"
+            alt="Chance For All"
             className="h-32 w-auto object-contain"
           />
         </Link>

@@ -21,7 +21,7 @@ export default function GraceStorySection() {
             <div className="absolute -bottom-6 -right-4 lg:right-8 bg-white rounded-2xl shadow-xl p-5 max-w-xs border border-gray-100">
               <Quote className="w-6 h-6 text-amber-500 mb-2" />
               <p className="text-gray-700 text-sm italic leading-relaxed">
-                "I felt lost and alone. My mentor at Chance for All helped me believe in my future again."
+                "I felt lost and alone. My mentor at Chance For All helped me believe in my future again."
               </p>
               <p className="text-blue-600 font-bold text-xs mt-2"> ,  Grace, Student</p>
             </div>
@@ -42,7 +42,7 @@ export default function GraceStorySection() {
                 but had no resources or training to help.
               </p>
               <p>
-                When CHANCE For ALL came to her school in Nyamasheke, Grace was identified as a
+                When Chance For All came to her school in Nyamasheke, Grace was identified as a
                 student in need. She received free weekly counseling sessions, one-on-one
                 mentorship, and school materials funded by the cross-subsidy model.
               </p>
