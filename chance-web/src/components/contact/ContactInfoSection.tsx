@@ -11,7 +11,7 @@ export default function ContactInfoSection() {
           {[
             { Icon: MapPin, label: "Address", val: "Ntendezi, Nyamasheke District, Western Province, Rwanda" },
             { Icon: Mail, label: "Email", val: "info@chanceforall.rw" },
-            { Icon: Phone, label: "Phone", val: "+250 780 000 000" },
+            { Icon: Phone, label: "Phone", val: "+250 786 069 425" },
             { Icon: Calendar, label: "Founded", val: "September 2025" },
           ].map((c) => (
             <div key={c.label} className="flex gap-3 items-start">
@@ -61,7 +61,7 @@ export default function ContactInfoSection() {
         <div className="space-y-2 text-sm text-gray-600">
           <p>Instagram: <span className="text-blue-600">@chanceforall.rw</span></p>
           <p>Facebook: <span className="text-blue-600">CHANCE For ALL</span></p>
-          <p>WhatsApp: <span className="text-blue-600">+250 780 000 000</span></p>
+          <p>WhatsApp: <span className="text-blue-600">+250 786 069 425</span></p>
         </div>
       </div>
     </div>
